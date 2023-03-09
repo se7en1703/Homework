@@ -1,15 +1,19 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите первое число ");
 string a = Console.ReadLine();
-double adouble = Convert.Todouble32(a);
+int aInt = Convert.ToInt32(a);
 Console.WriteLine("Введите второе число ");
 string b = Console.ReadLine();
-double bdouble = Convert.Todouble32(b);
-if (adouble > bdouble) 
+int bInt = Convert.ToInt32(b);
+if (aInt > bInt) 
 { Console.Write("Наибольшее число ");
-           Console.Write(adouble);
+           Console.WriteLine(aInt);
+           Console.Write("Наименьшее число ");
+           Console.WriteLine(bInt);
 }
 else 
 { Console.Write("Наибольшее число ");
-     Console.WriteLine(bdouble);
+     Console.WriteLine(bInt);
+     Console.Write("Наименьшее число ");
+     Console.WriteLine(aInt);
 }
