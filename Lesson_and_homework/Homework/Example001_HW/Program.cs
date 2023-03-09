@@ -1,19 +1,17 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите первое число ");
-string a = Console.ReadLine();
-int aInt = Convert.ToInt32(a);
+int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число ");
-string b = Console.ReadLine();
-int bInt = Convert.ToInt32(b);
-if (aInt > bInt) 
+int b = int.Parse(Console.ReadLine()!);
+if (a > b) 
 { Console.Write("Наибольшее число ");
-           Console.WriteLine(aInt);
+           Console.WriteLine(a);
            Console.Write("Наименьшее число ");
-           Console.WriteLine(bInt);
+           Console.WriteLine(b);
 }
 else 
 { Console.Write("Наибольшее число ");
-     Console.WriteLine(bInt);
+     Console.WriteLine(b);
      Console.Write("Наименьшее число ");
-     Console.WriteLine(aInt);
+     Console.WriteLine(a);
 }
