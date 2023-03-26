@@ -1,7 +1,7 @@
 ﻿void Zapol(double[] array)
 {
     for (int i = 0; i < array.Length; i++)
-        array[i] = Math.Round(new Random().NextDouble() * (10 - 1), 2);
+        array[i] = Math.Round(new Random().NextDouble() * (10 - 1) + 1, 2);
 }
 double MaxEl(double[] array)
 {
