@@ -18,4 +18,4 @@ int a = int.Parse(Console.ReadLine()!);
 int[] array = new int[a];
 Zapol(array);
 Console.WriteLine($"[{String.Join(", ", array)}]");
-Console.WriteLine($" Cуммa элементов, стоящих на нечётных позициях равна {Schet(array)}");
+Console.WriteLine($" Cумма элементов, стоящих на нечётных позициях равна {Schet(array)}");
